@@ -1,0 +1,193 @@
+
+
+*{
+  font-family: 'Amatic SC', cursive;
+
+}
+
+#navbar{
+  display:flex;
+  align-items:right;
+  justify-content:space-between;
+  padding:11px 80px;
+  background:white;
+
+  position:sticky;
+  top:0;
+  left:0;
+  box-shadow:0 5px 15px rgba(0,0,0,0.6);
+  width:auto;
+}
+#nav {
+  display: flex;
+  align-items:left;
+  justify-content:center;
+   
+    
+    }
+ #nav  li {
+  list-style: none;
+    padding:0px 55px;
+    position:relative;
+   }
+#nav li a{
+  text-decoration: none;
+  font-size:27px;
+
+  color:#1a1a1a;
+  transition: 0.3s ease;
+    
+}
+
+#nav  li a:hover{
+   
+    color:darkcyan;
+    }
+    #head{
+      
+        background-color:lavender;
+        height:97vh;
+        width:auto;
+        display:flex;
+      flex-direction: column;
+       align-items:center;
+        
+        background-size: cover;
+        
+        
+    }
+#head h1{
+    color:black;
+  
+  font-size:8em;
+
+ 
+    
+
+}
+#head  p{
+    color:white;
+    font-size: 3em;
+border: 2px solid darkcyan;
+margin-top: 0px;
+background-color:darkcyan
+
+}
+
+
+
+  
+.menu {
+  height: 195vh;
+  position: relative;
+  top: -75px;
+}
+  
+  
+  
+.menu h2 {
+  color: black;
+  font-size: 5em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.menu .chart {
+  background-color: black;
+  height: 175vh;
+  margin: -27px 119px;
+}
+  .chart p, h3, h4, h5, h6 {
+    color: white;
+    font-size: 45px;
+    padding-left: 40px;
+}
+ .chart title{
+  
+   
+    text-align: center;
+ }
+ h7{
+  color: black;
+  font-size: 5em;
+  text-align: center;
+  font-weight: lighter;
+  padding-left: 7em;
+}
+
+
+ #about{
+     
+     height:120vh;
+     position: relative;
+  
+    
+ }
+
+ #about p {
+  color: black;
+  padding-left: 30px;
+  font-size: 1.7em;
+}
+
+
+#about img{
+    width: 95%;
+    aspect-ratio:2.4;
+    margin-left:30px;
+ 
+   
+   }
+   .contact{
+    background-color:darkslategrey;
+    height:150vh;
+    position: relative;
+   
+ 
+   }
+.contact p{
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+   padding-left: 30px;
+ 
+ }
+ 
+ 
+ input[type=text],input[type="number"],input[type="datetime-local"] , button{
+ 
+    padding: 11px 43px;
+    margin: -34px 2px;
+    font-size: 25px;
+}
+ 
+
+/*media  for ipad*/
+
+@media(max-width:768px){
+  #navbar {
+    
+    padding: 26px 7px;
+    
+}
+#nav  li {
+ 
+  padding: 0px 45px; 
+}
+#nav li a {
+
+  font-size: 40px;
+}
+.menu{
+  top:148px;
+}
+.menu .chart {
+
+  height: 143vh;
+  
+}
+
+}
+
+
+
